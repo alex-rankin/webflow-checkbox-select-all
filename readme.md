@@ -6,7 +6,7 @@ This JavaScript code provides functionality for toggling "Select All" checkboxes
 
 Place `<script src="https://cdn.jsdelivr.net/gh/alex-rankin/webflow-checkbox-select-all/src/script.min.js"></script>` within your pages `</body>` towards the top.
 
-Within Webflow you should have a element wrapper with an ID containing all the **_checkboxes_** and **_select all_**. The select all should also have its own ID. Pass both these IDs into `setupCheckboxHandler` function to get started. Repeat these steps with a new function if there are multiple.
+Within Webflow you should have a element wrapper with an ID containing all the `checkboxes` and `select all`. The select all should also have its own ID. Pass both these IDs into `setupCheckboxHandler` function to get started. Repeat these steps with a new function if there are multiple.
 
 ### Setup Checkbox Handler
 
@@ -14,8 +14,8 @@ The setupCheckboxHandler function allows toggling of "Select All" checkboxes wit
 
 #### Parameters
 
-**_dropdownId_** The ID of the dropdown (parent) selector.
-**_checkAllId_** The ID of the "Select All" checkbox input.
+`dropdownId` The ID of the dropdown (parent) selector.<br>
+`checkAllId` The ID of the "Select All" checkbox input.
 
 #### Usage
 
@@ -27,7 +27,7 @@ The setupClearAllHandler function clears WebFlow filters based on the checkboxes
 
 #### Parameters
 
-**_clearAllId_** The ID of the "Clear All" element.
+`clearAllId` The ID of the "Clear All" element.
 
 #### Usage
 
